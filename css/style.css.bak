@@ -1,0 +1,426 @@
+/*-----Common CSS Start*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background: #02918C;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.sec_ttl h2 {
+    font-size: 46px;
+    color: #02918C;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.sec_ttl p {
+    font-size: 16px;
+    color: #7e8287;
+    margin: auto;
+    line-height: 41px;
+}
+
+.sec_ttl p span {
+    font-weight: 800;
+    font-size: 23px;
+}
+
+
+/*-----Common CSS End*/
+
+nav {
+    background-color: #02918C;
+}
+
+
+/*-----Nav CSS Start*/
+
+nav>.container>.row {
+    align-items: center;
+}
+
+nav .logo {
+    width: 25%;
+}
+
+nav .logo img {
+    display: block;
+}
+
+nav .menu {
+    width: 75%;
+    text-align: right;
+}
+
+
+
+nav .menu ul li {
+    display: inline-block;
+    margin: 22px 0;
+}
+
+nav .menu ul li a {
+    display: block;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    padding: 0 25px;
+    text-transform: uppercase;
+    transition: all .4s linear;
+}
+
+nav .menu ul li a:hover {
+     color: #CFC91D;
+	transform: scale(1.5);
+}
+
+
+/*-----Nav CSS End*/
+
+
+/*-----Banner CSS Start*/
+
+#banner {
+    height: 728px;
+    background-image: url(..//images/slider.jpg);
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#banner::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.66);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#banner .container,
+#banner .container .row {
+    height: 100%;
+}
+
+#banner .container>.row {
+    align-items: center;
+}
+
+#banner .banner_content {
+    width: 100%;
+}
+
+#banner .banner_content h6 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#banner .banner_content h1 {
+    color: #ffffff;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-weight: 800;
+}
+
+#banner .banner_content p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#banner .banner_content img.banner_shape {
+    padding: 40px 0;
+    display: block;
+    margin: auto;
+}
+
+#banner .banner_content a {
+    color: #000000;
+    padding: 10px 52px;
+    background-color: #CFC91D;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#banner .banner_content a:hover{
+	
+	background-color: #000;
+	color: #cfc91d;
+}
+
+
+/*-----Banner CSS End*/
+
+
+/*-----About CSS Start*/
+
+#about {
+    padding: 70px 0;
+}
+
+#about .sec_ttl p {
+    width: 934px;
+}
+
+#about .about_item {
+    padding: 0 65px;
+    border-right: 1px solid #D9DBDB;
+    margin-top: 65px;
+    width: 25%;
+}
+
+#about .about_item:last-child {
+    border-right: 1px solid transparent;
+}
+
+#about .about_item img {
+    width: 30px;
+}
+#about .about_item img:hover{
+	
+	transform: scale(1.5);
+}
+
+#about .about_item h5 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #7E8287;
+    padding: 27px 0;
+}
+
+#about .about_item p {
+    font-size: 11px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #7E8287;
+}
+
+
+/*-----about CSS End*/
+
+
+/*-----Service CSS Start*/
+
+#service {
+    background: #f0f0e8 url(..//images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: right center;
+    position: relative;
+}
+
+#service::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgba(240, 240, 232, .7);
+}
+
+#service .service_content {
+    width: 50%;
+    padding: 70px 0;
+}
+
+#service .service_item_container {
+    margin-top: 18px;
+}
+
+#service .service_item_container .service_item {
+    width: 50%;
+    padding: 25px 110px 25px 0;
+}
+
+#service .service_item_container .service_item h5 {
+    color: #7e8287;
+    font-size: 16px;
+    padding: 13px 0;
+}
+
+#service .service_item_container .service_item p {
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 22px;
+}
+
+
+/*-----Service CSS End*/
+
+
+/*-----Mywork CSS Start*/
+
+#mywork .mywork_details {
+    padding: 70px 0;
+    margin-top: 20px;
+}
+
+#mywork .mywork_details p {
+    width: 678px;
+}
+
+#mywork .work_item {
+    width: 25%;
+    position: relative;
+}
+
+#mywork .work_item img {
+    width: 100%;
+    display: block;
+}
+
+#mywork .work_item .overlay {
+    position: absolute;
+    left: 27px;
+    right: 27px;
+    top: 20px;
+    bottom: 20px;
+    background: rgba(2, 145, 140, .85);
+    padding: 60px;
+    padding-top: 75px;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#mywork .work_item:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+#mywork .work_item .overlay h5 {
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+#mywork .work_item .overlay p {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+
+/*-----My work CSS End*/
+
+
+/*-----Contact CSS Start*/
+
+#contact .contact_details {
+    padding: 70px 0;
+    margin-top: 20px;
+}
+
+#contact .contact_details p {
+    width: 678px;
+}
+
+#contact .contact_form {
+    background-color: #0b0b0b;
+    padding: 70px 0;
+}
+
+#contact .contact_form input,
+#contact .contact_form textarea {
+    display: block;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    color: #7e8287;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border-bottom: 1px solid #898989;
+    padding: 12px;
+    margin-bottom: 50px;
+}
+
+#contact .contact_form textarea {
+    resize: none;
+}
+
+#contact .contact_form input {
+    width: 637px;
+}
+
+#contact .contact_form input:last-child {
+    border-bottom: initial;
+}
+
+#contact .contact_form input:nth-child(3),
+#contact .contact_form textarea {
+    width: 917px;
+}
+
+#contact .contact_form input[type="submit"] {
+    background-color: #CFC91D;
+    width: 196px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 800;
+	cursor:pointer;
+}
+#contact .contact_form input:hover{
+	
+	background-color: #000;
+	color: #cfc91d;
+}
+
+
+/*-----Contact CSS End*/
+
+
+/*-----Footer CSS Start*/
+
+footer {
+    background-color: #000;
+}
+
+footer .footer_text {
+    color: #787C81;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    font-size: 12px;
+}
+
+
+/*-----Footer CSS End*/

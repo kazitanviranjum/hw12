@@ -1,0 +1,28 @@
+Header Color
+#02918C
+
+Font color
+#FFFFFF
+#BABCBF
+
+Button Color
+#CFC91D
+
+Section Title Color
+#02918C
+
+Footer Color
+#0B0B0B
+
+Font
+Open sans
+Open Sans Extrabold
+#
+#
+#
+#
+#
+#
+#
+
+#
